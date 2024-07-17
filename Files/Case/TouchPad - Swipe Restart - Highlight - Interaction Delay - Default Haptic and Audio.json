@@ -83,48 +83,48 @@
     "game_over_text": "Congratulations! You have completed the game!",
     "linked_files": {
         "correct_haptic": [
-            "https://lee3072.github.io/GUI-Rebuild/Files/Haptic/Original/Dtmf-0.ahap",
-            "https://lee3072.github.io/GUI-Rebuild/Files/Haptic/Original/Dtmf-0.ahap",
-            "https://lee3072.github.io/GUI-Rebuild/Files/Haptic/Original/Dtmf-0.ahap",
-            "https://lee3072.github.io/GUI-Rebuild/Files/Haptic/Original/Dtmf-0.ahap",
-            "https://lee3072.github.io/GUI-Rebuild/Files/Haptic/Original/Dtmf-0.ahap",
-            "https://lee3072.github.io/GUI-Rebuild/Files/Haptic/Original/Dtmf-0.ahap",
-            "https://lee3072.github.io/GUI-Rebuild/Files/Haptic/Original/Dtmf-0.ahap",
-            "https://lee3072.github.io/GUI-Rebuild/Files/Haptic/Original/Dtmf-0.ahap",
-            "https://lee3072.github.io/GUI-Rebuild/Files/Haptic/Original/Dtmf-0.ahap"
+            "https://harvi-lab.github.io/TouchTact-Experiment-Generation-GUI/Files/Haptic/Original/Dtmf-0.ahap",
+            "https://harvi-lab.github.io/TouchTact-Experiment-Generation-GUI/Files/Haptic/Original/Dtmf-0.ahap",
+            "https://harvi-lab.github.io/TouchTact-Experiment-Generation-GUI/Files/Haptic/Original/Dtmf-0.ahap",
+            "https://harvi-lab.github.io/TouchTact-Experiment-Generation-GUI/Files/Haptic/Original/Dtmf-0.ahap",
+            "https://harvi-lab.github.io/TouchTact-Experiment-Generation-GUI/Files/Haptic/Original/Dtmf-0.ahap",
+            "https://harvi-lab.github.io/TouchTact-Experiment-Generation-GUI/Files/Haptic/Original/Dtmf-0.ahap",
+            "https://harvi-lab.github.io/TouchTact-Experiment-Generation-GUI/Files/Haptic/Original/Dtmf-0.ahap",
+            "https://harvi-lab.github.io/TouchTact-Experiment-Generation-GUI/Files/Haptic/Original/Dtmf-0.ahap",
+            "https://harvi-lab.github.io/TouchTact-Experiment-Generation-GUI/Files/Haptic/Original/Dtmf-0.ahap"
         ],
         "wrong_haptic": [
-            "https://lee3072.github.io/GUI-Rebuild/Files/Haptic/Original/33786__jobro__4-beep-c.ahap",
-            "https://lee3072.github.io/GUI-Rebuild/Files/Haptic/Original/33786__jobro__4-beep-c.ahap",
-            "https://lee3072.github.io/GUI-Rebuild/Files/Haptic/Original/33786__jobro__4-beep-c.ahap",
-            "https://lee3072.github.io/GUI-Rebuild/Files/Haptic/Original/33786__jobro__4-beep-c.ahap",
-            "https://lee3072.github.io/GUI-Rebuild/Files/Haptic/Original/33786__jobro__4-beep-c.ahap",
-            "https://lee3072.github.io/GUI-Rebuild/Files/Haptic/Original/33786__jobro__4-beep-c.ahap",
-            "https://lee3072.github.io/GUI-Rebuild/Files/Haptic/Original/33786__jobro__4-beep-c.ahap",
-            "https://lee3072.github.io/GUI-Rebuild/Files/Haptic/Original/33786__jobro__4-beep-c.ahap",
-            "https://lee3072.github.io/GUI-Rebuild/Files/Haptic/Original/33786__jobro__4-beep-c.ahap"
+            "https://harvi-lab.github.io/TouchTact-Experiment-Generation-GUI/Files/Haptic/Original/33786__jobro__4-beep-c.ahap",
+            "https://harvi-lab.github.io/TouchTact-Experiment-Generation-GUI/Files/Haptic/Original/33786__jobro__4-beep-c.ahap",
+            "https://harvi-lab.github.io/TouchTact-Experiment-Generation-GUI/Files/Haptic/Original/33786__jobro__4-beep-c.ahap",
+            "https://harvi-lab.github.io/TouchTact-Experiment-Generation-GUI/Files/Haptic/Original/33786__jobro__4-beep-c.ahap",
+            "https://harvi-lab.github.io/TouchTact-Experiment-Generation-GUI/Files/Haptic/Original/33786__jobro__4-beep-c.ahap",
+            "https://harvi-lab.github.io/TouchTact-Experiment-Generation-GUI/Files/Haptic/Original/33786__jobro__4-beep-c.ahap",
+            "https://harvi-lab.github.io/TouchTact-Experiment-Generation-GUI/Files/Haptic/Original/33786__jobro__4-beep-c.ahap",
+            "https://harvi-lab.github.io/TouchTact-Experiment-Generation-GUI/Files/Haptic/Original/33786__jobro__4-beep-c.ahap",
+            "https://harvi-lab.github.io/TouchTact-Experiment-Generation-GUI/Files/Haptic/Original/33786__jobro__4-beep-c.ahap"
         ],
         "correct_audio": [
-            "https://lee3072.github.io/GUI-Rebuild/Files/Audio/Original/1.wav",
-            "https://lee3072.github.io/GUI-Rebuild/Files/Audio/Original/6.wav",
-            "https://lee3072.github.io/GUI-Rebuild/Files/Audio/Original/3.wav",
-            "https://lee3072.github.io/GUI-Rebuild/Files/Audio/Original/5.wav",
-            "https://lee3072.github.io/GUI-Rebuild/Files/Audio/Original/2.wav",
-            "https://lee3072.github.io/GUI-Rebuild/Files/Audio/Original/8.wav",
-            "https://lee3072.github.io/GUI-Rebuild/Files/Audio/Original/4.wav",
-            "https://lee3072.github.io/GUI-Rebuild/Files/Audio/Original/9.wav",
-            "https://lee3072.github.io/GUI-Rebuild/Files/Audio/Original/7.wav"
+            "https://harvi-lab.github.io/TouchTact-Experiment-Generation-GUI/Files/Audio/Original/1.wav",
+            "https://harvi-lab.github.io/TouchTact-Experiment-Generation-GUI/Files/Audio/Original/6.wav",
+            "https://harvi-lab.github.io/TouchTact-Experiment-Generation-GUI/Files/Audio/Original/3.wav",
+            "https://harvi-lab.github.io/TouchTact-Experiment-Generation-GUI/Files/Audio/Original/5.wav",
+            "https://harvi-lab.github.io/TouchTact-Experiment-Generation-GUI/Files/Audio/Original/2.wav",
+            "https://harvi-lab.github.io/TouchTact-Experiment-Generation-GUI/Files/Audio/Original/8.wav",
+            "https://harvi-lab.github.io/TouchTact-Experiment-Generation-GUI/Files/Audio/Original/4.wav",
+            "https://harvi-lab.github.io/TouchTact-Experiment-Generation-GUI/Files/Audio/Original/9.wav",
+            "https://harvi-lab.github.io/TouchTact-Experiment-Generation-GUI/Files/Audio/Original/7.wav"
         ],
         "wrong_audio": [
-            "https://lee3072.github.io/GUI-Rebuild/Files/Audio/Original/33786__jobro__4-beep-c.wav",
-            "https://lee3072.github.io/GUI-Rebuild/Files/Audio/Original/33786__jobro__4-beep-c.wav",
-            "https://lee3072.github.io/GUI-Rebuild/Files/Audio/Original/33786__jobro__4-beep-c.wav",
-            "https://lee3072.github.io/GUI-Rebuild/Files/Audio/Original/33786__jobro__4-beep-c.wav",
-            "https://lee3072.github.io/GUI-Rebuild/Files/Audio/Original/33786__jobro__4-beep-c.wav",
-            "https://lee3072.github.io/GUI-Rebuild/Files/Audio/Original/33786__jobro__4-beep-c.wav",
-            "https://lee3072.github.io/GUI-Rebuild/Files/Audio/Original/33786__jobro__4-beep-c.wav",
-            "https://lee3072.github.io/GUI-Rebuild/Files/Audio/Original/33786__jobro__4-beep-c.wav",
-            "https://lee3072.github.io/GUI-Rebuild/Files/Audio/Original/33786__jobro__4-beep-c.wav"
+            "https://harvi-lab.github.io/TouchTact-Experiment-Generation-GUI/Files/Audio/Original/33786__jobro__4-beep-c.wav",
+            "https://harvi-lab.github.io/TouchTact-Experiment-Generation-GUI/Files/Audio/Original/33786__jobro__4-beep-c.wav",
+            "https://harvi-lab.github.io/TouchTact-Experiment-Generation-GUI/Files/Audio/Original/33786__jobro__4-beep-c.wav",
+            "https://harvi-lab.github.io/TouchTact-Experiment-Generation-GUI/Files/Audio/Original/33786__jobro__4-beep-c.wav",
+            "https://harvi-lab.github.io/TouchTact-Experiment-Generation-GUI/Files/Audio/Original/33786__jobro__4-beep-c.wav",
+            "https://harvi-lab.github.io/TouchTact-Experiment-Generation-GUI/Files/Audio/Original/33786__jobro__4-beep-c.wav",
+            "https://harvi-lab.github.io/TouchTact-Experiment-Generation-GUI/Files/Audio/Original/33786__jobro__4-beep-c.wav",
+            "https://harvi-lab.github.io/TouchTact-Experiment-Generation-GUI/Files/Audio/Original/33786__jobro__4-beep-c.wav",
+            "https://harvi-lab.github.io/TouchTact-Experiment-Generation-GUI/Files/Audio/Original/33786__jobro__4-beep-c.wav"
         ]
     }
 }

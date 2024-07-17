@@ -27,9 +27,9 @@ LAST_ACCESSED_EXPERIMENT_PATH = os.path.join(DEFAULT_EXPERIMENT_FOLDER, 'last_sa
 
 # Default settings for the GUI application
 default_settings = {
-    "github_id": "lee3072",
-    "github_repo": "TouchTactServer",
-    "ServerAddress": "https://lee3072.github.io/TouchTactServer",
+    "github_id": "harvi-lab",
+    "github_repo": "TouchTact-Experiment-Generation-GUI",
+    "ServerAddress": "https://harvi-lab.github.io/TouchTact-Experiment-Generation-GUI",
     "use_server_address": False,
     "FolderVariables": {
         "OriginalAudioFolder": os.path.join("Files", "Audio", "Original"),

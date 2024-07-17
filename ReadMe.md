@@ -45,11 +45,11 @@ TouchTact is a system for conducting touch interaction and haptic feedback exper
 1. Fork this repository on GitHub
 2. Clone your fork:
    ```
-   git clone https://github.com/your-username/TouchTactServer.git
+   git clone https://github.com/your-username/TouchTact-Experiment-Generation-GUI.git
    ```
 3. Navigate to the project directory:
    ```
-   cd TouchTactServer
+   cd TouchTact-Experiment-Generation-GUI
    ```
 4. Install required packages:
    ```
@@ -172,7 +172,7 @@ After setting up your experiment:
 Participants need the following to access experiments via the TouchTact iOS app:
 
 - Researcher's GitHub username
-- Repository name (typically TouchTactServer)
+- Repository name (typically TouchTact-Experiment-Generation-GUI)
 - Experiment ID
 - Assigned Participant ID
 
@@ -190,7 +190,7 @@ To extend TouchTact's functionality:
 ## File Structure
 
 ```
-TouchTactServer/
+TouchTact-Experiment-Generation-GUI/
 │
 ├── Files/
 │   ├── Audio/
