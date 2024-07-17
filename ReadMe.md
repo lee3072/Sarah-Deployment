@@ -25,7 +25,7 @@ TouchTact is a system for conducting touch interaction and haptic feedback exper
 The TouchTact system consists of two main components:
 
 1. This Experiment Generation GUI (current repository)
-2. The iOS app for experiment participants: TouchTact iOS App
+2. The iOS app for experiment participants: TouchTact iOS App<br>
    https://github.com/HaRVI-Lab/TouchTact-iOS-App
 
 Researchers use this GUI to design experiments, which are then accessed and performed by participants using the iOS app.
