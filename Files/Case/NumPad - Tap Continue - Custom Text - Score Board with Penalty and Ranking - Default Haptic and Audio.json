@@ -1,0 +1,99 @@
+{
+    "order_array": [
+        3,
+        2,
+        1,
+        6,
+        4,
+        8,
+        5,
+        9,
+        7
+    ],
+    "interaction_delay": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "tutorial_text": {
+        "interaction_type": "tap on the button from 1 to 9",
+        "penalty": "incorrect interaction will result in a penalty",
+        "game_mode": "you will be able to continue from the button you left off if you make a mistake"
+    },
+    "interaction": {
+        "interaction_type": "tap",
+        "game_mode": "continue"
+    },
+    "custom_text_array": [
+        "3+",
+        "2+0",
+        "1+0",
+        "6+0",
+        "4+0",
+        "8+0",
+        "5+0",
+        "9+0+",
+        "+07"
+    ],
+    "score": {
+        "reward_score": 55.5,
+        "penalty_percentage": 1,
+        "decimal_places": 3,
+        "display_negative": true,
+        "fake_ranking": 494.505
+    },
+    "survey_url": "https://usc.qualtrics.com/jfe/form/SV_41rUA1Ng0oC6Pe6",
+    "game_over_text": "Congratulations! You have completed the game!",
+    "linked_files": {
+        "correct_haptic": [
+            "https://lee3072.github.io/GUI-Rebuild/Files/Haptic/Original/Dtmf-0.ahap",
+            "https://lee3072.github.io/GUI-Rebuild/Files/Haptic/Original/Dtmf-0.ahap",
+            "https://lee3072.github.io/GUI-Rebuild/Files/Haptic/Original/Dtmf-0.ahap",
+            "https://lee3072.github.io/GUI-Rebuild/Files/Haptic/Original/Dtmf-0.ahap",
+            "https://lee3072.github.io/GUI-Rebuild/Files/Haptic/Original/Dtmf-0.ahap",
+            "https://lee3072.github.io/GUI-Rebuild/Files/Haptic/Original/Dtmf-0.ahap",
+            "https://lee3072.github.io/GUI-Rebuild/Files/Haptic/Original/Dtmf-0.ahap",
+            "https://lee3072.github.io/GUI-Rebuild/Files/Haptic/Original/Dtmf-0.ahap",
+            "https://lee3072.github.io/GUI-Rebuild/Files/Haptic/Original/Dtmf-0.ahap"
+        ],
+        "wrong_haptic": [
+            "https://lee3072.github.io/GUI-Rebuild/Files/Haptic/Original/33786__jobro__4-beep-c.ahap",
+            "https://lee3072.github.io/GUI-Rebuild/Files/Haptic/Original/33786__jobro__4-beep-c.ahap",
+            "https://lee3072.github.io/GUI-Rebuild/Files/Haptic/Original/33786__jobro__4-beep-c.ahap",
+            "https://lee3072.github.io/GUI-Rebuild/Files/Haptic/Original/33786__jobro__4-beep-c.ahap",
+            "https://lee3072.github.io/GUI-Rebuild/Files/Haptic/Original/33786__jobro__4-beep-c.ahap",
+            "https://lee3072.github.io/GUI-Rebuild/Files/Haptic/Original/33786__jobro__4-beep-c.ahap",
+            "https://lee3072.github.io/GUI-Rebuild/Files/Haptic/Original/33786__jobro__4-beep-c.ahap",
+            "https://lee3072.github.io/GUI-Rebuild/Files/Haptic/Original/33786__jobro__4-beep-c.ahap",
+            "https://lee3072.github.io/GUI-Rebuild/Files/Haptic/Original/33786__jobro__4-beep-c.ahap"
+        ],
+        "correct_audio": [
+            "https://lee3072.github.io/GUI-Rebuild/Files/Audio/Original/Dtmf-0.wav",
+            "https://lee3072.github.io/GUI-Rebuild/Files/Audio/Original/Dtmf-0.wavDtmf-0.wav - Files/Audio/Original/Dtmf-0.wav",
+            "https://lee3072.github.io/GUI-Rebuild/Files/Audio/Original/Dtmf-0.wav",
+            "https://lee3072.github.io/GUI-Rebuild/Files/Audio/Original/Dtmf-0.wavDtmf-0.wav - Files/Audio/Original/Dtmf-0.wav",
+            "https://lee3072.github.io/GUI-Rebuild/Files/Audio/Original/Dtmf-0.wavDtmf-0.wav - Files/Audio/Original/Dtmf-0.wav",
+            "https://lee3072.github.io/GUI-Rebuild/Files/Audio/Original/Dtmf-0.wav",
+            "https://lee3072.github.io/GUI-Rebuild/Files/Audio/Original/Dtmf-0.wav",
+            "https://lee3072.github.io/GUI-Rebuild/Files/Audio/Original/Dtmf-0.wav",
+            "https://lee3072.github.io/GUI-Rebuild/Files/Audio/Original/Dtmf-0.wav"
+        ],
+        "wrong_audio": [
+            "https://lee3072.github.io/GUI-Rebuild/Files/Audio/Original/33786__jobro__4-beep-c.wav",
+            "https://lee3072.github.io/GUI-Rebuild/Files/Audio/Original/33786__jobro__4-beep-c.wav",
+            "https://lee3072.github.io/GUI-Rebuild/Files/Audio/Original/33786__jobro__4-beep-c.wav",
+            "https://lee3072.github.io/GUI-Rebuild/Files/Audio/Original/33786__jobro__4-beep-c.wav",
+            "https://lee3072.github.io/GUI-Rebuild/Files/Audio/Original/33786__jobro__4-beep-c.wav",
+            "https://lee3072.github.io/GUI-Rebuild/Files/Audio/Original/33786__jobro__4-beep-c.wav",
+            "https://lee3072.github.io/GUI-Rebuild/Files/Audio/Original/33786__jobro__4-beep-c.wav",
+            "https://lee3072.github.io/GUI-Rebuild/Files/Audio/Original/33786__jobro__4-beep-c.wav",
+            "https://lee3072.github.io/GUI-Rebuild/Files/Audio/Original/33786__jobro__4-beep-c.wav"
+        ]
+    }
+}

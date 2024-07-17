@@ -1,0 +1,286 @@
+{
+	"title": "Case Information",
+	"description": "layout_number = location_arrary != null; ",
+	"type": "object",
+	"required": [
+	  "order_array",
+      "interaction_delay",
+	  "interaction",
+      "tutorial_text"
+	],
+	"properties": {
+        "order_array": {
+            "type": "array",
+            "minItems": 9,
+            "maxItems": 9,
+            "uniqueItems": true,
+            "items": {
+                "type": "integer",
+                "minimum": 1,
+                "maximum": 9
+            }
+        },
+        "custom_text_array": {
+            "title": "Custom Text for Each Button",
+            "description": "Replaces default number to custom text on each button",
+            "type": "array",
+            "minItems": 9,
+            "maxItems": 9,
+            "uniqueItems": true,
+            "items": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 4
+            }
+        },
+        "interaction_delay": {
+            "title": "Interaction Delay",
+            "description": "Delayed activation time for button after previous interaction in milliseconds",
+            "type": "array",
+            "minItems": 9,
+            "maxItems": 9,
+            "items": {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 10000
+            }
+        },
+        "highlight_array": {
+            "title": "Highlight Array",
+            "description": "Button to highlight after each interaction, please provide order number",
+            "type": "array",
+            "minItems": 9,
+            "maxItems": 9,
+            "items": {
+                "type": "integer",
+                "minimum": 1,
+                "maximum": 9
+            }
+        },
+        "location_array": {
+            "title": "Location By Percentage",
+            "description": "Describe Position (x,y) For Each Digit Array Element by Percentage (%), width: 15% and height 10%",
+            "type": "array",
+            "minItems": 9,
+            "maxItems": 9,
+            "uniqueItems": true,
+            "items": {
+                "description": "Position (X,Y) By Percentage (0% to 85%, 0% to 90%)",
+                "type": "object",
+                "required": [
+                    "x",
+                    "y"
+                ],
+                "properties": {
+                    "x": {
+                        "type": "integer",
+                        "minimum": 0,
+                        "maximum": 85
+                    },
+                    "y": {
+                        "type": "integer",
+                        "minimum": 0,
+                        "maximum": 90
+                    }
+                }
+            }
+        },
+        "interaction": {
+            "title": "Interaction",
+            "type": "object",
+            "required": [
+                "interaction_type",
+                "game_mode"
+            ],
+            "oneOf": [
+            {
+                "type": "object",
+                "properties": {
+                    "interaction_type": {
+                        "const": "tap"
+                    },
+                    "game_mode": {
+                        "const": "continue"
+                    }
+                }
+            },
+            {
+                "type": "object",
+                "properties": {
+                    "interaction_type": {
+                        "const": "tap"
+                    },
+                    "game_mode": {
+                        "const": "restart"
+                    }
+                }
+            },
+                    {
+                "type": "object",
+                "properties": {
+                    "interaction_type": {
+                        "const": "swipe_through"
+                    },
+                    "game_mode": {
+                        "const": "restart"
+                    }
+                }
+            }
+            ]
+        },
+        "timer": {
+            "title": "Timer Settings",
+            "type": "object",
+            "required": [
+                "direction",
+                "format",
+                "max_time"
+            ],
+            "properties": {
+            "direction": {
+                "type": "string",
+                "enum": [
+                "up",
+                "down"
+                ]
+            },
+            "max_time": {
+                "type": "integer",
+                "minimum": 1,
+                "maximum": 3599999,
+                "description": "Maximum Time In Milliseconds"	
+            },
+            "format": {
+                "type": "string",
+                "description": "Represented In Integer Format",
+                "enum": [
+                "S", 
+                "s", 
+                "m", 
+                "s.SSS", 
+                "mm:ss", 
+                "mm:ss.SSS"
+                ]
+            },
+            "fake_ranking": {
+                "title": "Fake Time Ranking in second",
+                "type": "number"
+            }
+            }
+        },
+        "score": {
+            "title": "Score Board Settings",
+            "type": "object",
+            "required": [
+                "reward_score",
+                "penalty_percentage",
+                "decimal_places",
+                "display_negative"
+            ],
+            "properties": {
+            "reward_score": {
+                "title": "Rewarding Score",
+                "type": "number",
+                "description": "Positive float value for rewarding score",
+                "minimum": 0
+            },
+            "penalty_percentage": {
+                "title": "Penalty",
+                "type": "integer",
+                "description": "Percentage (%) of penalty out of max score",
+                "minimum": 0,
+                "maximum": 100
+            },
+            "decimal_places": {
+                "title": "Decimal Place Format",
+                "description": "Number of Decimal Places to Display",
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 8
+            },
+            "display_negative": {
+                "title": "Allow Negative",
+                "type": "boolean",
+                "description": "whether the score can be negative or not"
+            },
+            "fake_ranking": {
+                "title": "Fake Score Ranking",
+                "type": "number"
+            }
+            }
+        },
+        "tutorial_text": {
+            "interaction_type": {
+                "title": "Explain how user should interact with UI",
+                "description": "EX) tap on the button from 1 to 9",
+                "type": "string"
+            },
+            "penalty": {
+                "title": "Explain what will be penalized",
+                "description": "EX) incorrect interaction will be penalized",
+                "type": "string"
+            },
+            "game_mode": {
+                "title": "Explain what user need to do after incorrect interaction",
+                "description": "EX) level will reset with the penalty",
+                "type": "string"
+            }
+        },
+        "game_over_text": {
+            "title": "Message to display when the game is over, either by compeleting the instruction or time limit reached",
+            "description": "EX) Game Over!",
+            "type": "string"
+        },
+        "linked_files": {
+            "title": "Experiment Files",
+            "type": "object",
+            "required": [],
+            "properties": {
+                "correct_haptic": {
+                    "title": "Haptic File For Correct Interaction",
+                    "type": "array",
+                    "minItems": 9,
+                    "maxItems": 9,
+                    "items": {
+                        "type": "string",
+                        "format": "uri-reference"
+                    }
+                },
+                "correct_audio": {
+                    "title": "Audio File For Correct Interaction",
+                    "type": "array",
+                    "minItems": 9,
+                    "maxItems": 9,
+                    "items": {
+                        "type": "string",
+                        "format": "uri-reference"
+                    }
+                },
+                "wrong_haptic": {
+                    "title": "Haptic File For Wrong Interaction",
+                    "type": "array",
+                    "minItems": 9,
+                    "maxItems": 9,
+                    "items": {
+                        "type": "string",
+                        "format": "uri-reference"
+                    }
+                },
+                "wrong_audio": {
+                    "title": "Audio File For Wrong Interaction",
+                    "type": "array",
+                    "minItems": 9,
+                    "maxItems": 9,
+                    "items": {
+                        "type": "string",
+                        "format": "uri-reference"
+                    }
+                }
+		    }
+	    },
+        "survey_url": {
+            "type": "string",
+            "format": "uri-reference"
+        }
+	}
+  }

@@ -1,0 +1,33 @@
+{
+    "user_agreements": [
+        "I will read instruction out loud",
+        "I will participate in the study",
+        "I will provide honest responses",
+        "I consent to collect interaction data",
+        "My participation is voluntary",
+        "I can withdraw from the study any time"
+    ],
+    "layout_descriptions": [
+        {
+            "image": "https://lee3072.github.io/GUI-Rebuild/Files/Image/Layout0_tap.png",
+            "location_array_available": false,
+            "interaction_type": "tap"
+        },
+        {
+            "image": "https://lee3072.github.io/GUI-Rebuild/Files/Image/Layout1_tap.png",
+            "location_array_available": true,
+            "interaction_type": "tap"
+        },
+        {
+            "image": "https://lee3072.github.io/GUI-Rebuild/Files/Image/Layout1_swipe.png",
+            "location_array_available": true,
+            "interaction_type": "swipe_through"
+        }
+    ],
+    "case_id_array": [
+        "NumPad - Tap Restart - Interaction Delay - Count Down Timer with Ranking -  Score Board with Penalty and Ranking - Default Haptic - 1 to 9 Audio",
+        "NumPad - Tap Continue - Custom Text - Score Board with Penalty and Ranking - Default Haptic and Audio",
+        "TouchPad - Swipe Restart - Highlight - Interaction Delay - Default Haptic and Audio"
+    ],
+    "survey_url": "https://usc.qualtrics.com/jfe/form/SV_41rUA1Ng0oC6Pe6"
+}

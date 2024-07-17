@@ -1,0 +1,53 @@
+{
+    "type": "object",
+    "description": "Returned from Post request with \"Experiment ID\" Given",
+    "properties": {
+        "user_agreements": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+                "type": "string"
+            }
+        },
+        "layout_descriptions": {
+            "type": "array",
+            "minItems": 1,
+            "maxItems": 3,
+            "items": {
+                "type": "object",
+                "properties": {
+                    "image": {
+                        "type": "string",
+                        "format": "uri-reference"
+                    },
+                    "location_array_available": {
+                        "type": "boolean"
+                    }, 
+                    "interaction_type": {
+                        "type": "string",
+                        "enum": [
+                            "tap",
+                            "swipe_through"
+                        ]
+                    }
+                }
+            }
+        },
+        "case_id_array": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+                "type": "string"
+            }
+        },
+        "survey_url": {
+            "type": "string",
+            "format": "uri-reference"
+        }
+    },
+    "required": [
+        "user_agreements",
+        "layout_descriptions",
+        "case_id_array"
+    ]
+}
