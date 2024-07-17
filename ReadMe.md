@@ -267,7 +267,7 @@ Note: All AHAP (Apple Haptic and Audio Pattern) files were created specifically 
 ### License
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by/4.0/)
 
-TouchTact Experiment Generation GUI © 2023 by University of Southern California HaRVI Research Lab is licensed under CC BY 4.0. 
+TouchTact Experiment Generation GUI © 2024 by University of Southern California HaRVI Research Lab is licensed under CC BY 4.0. 
 
 This license requires that reusers give credit to the creator. It allows reusers to distribute, remix, adapt, and build upon the material in any medium or format, even for commercial purposes.
 
@@ -281,10 +281,9 @@ If you use TouchTact in your research or project, please provide attribution by 
 Lee, S. H., Kollannur, & Culbertson H. (2025). 
 TouchTact: A Performance-Centric Audio-Haptic Toolkit for Task-Oriented Mobile Interactions. [Paper DOI URL]
 
-Project URL: 
+TouchTact Project URL: 
 [Experiment Generation GUI] https://github.com/HaRVI-Lab/TouchTact-Experiment-Generation-GUI
 [TouchTact iOS App] https://github.com/HaRVI-Lab/TouchTact-iOS-App
-
 ```
 ## Contributors and Contact
 This project was developed by the University of Southern California HaRVI Research Lab.
