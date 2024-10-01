@@ -84,6 +84,7 @@
         "max_time": 7000,
         "format": "S"
     },
+    "survey_url": "https://usc.yul1.qualtrics.com/survey-builder/SV_b7ahs28bIDKjHo2/edit?SurveyID=SV_b7ahs28bIDKjHo2",
     "game_over_text": "Congratulations! You have completed the game!",
     "linked_files": {
         "correct_haptic": [

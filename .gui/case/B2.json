@@ -152,7 +152,7 @@
         "game_mode": "you will need to restart from 1 if you make a mistake"
     },
     "game_over_text": "Congratulations! You have completed the game!",
-    "survey_url": "data_only - ",
+    "survey_url": "data_only - https://usc.yul1.qualtrics.com/survey-builder/SV_b7ahs28bIDKjHo2/edit?SurveyID=SV_b7ahs28bIDKjHo2",
     "custom_text_enabled": true,
     "location_array_enabled": true,
     "highlight_array_enabled": false
