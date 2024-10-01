@@ -1,0 +1,159 @@
+{
+    "case_id": "C1",
+    "interaction": "tap & restart",
+    "order_array": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+    ],
+    "custom_text_array": [
+        "4-3",
+        "7-5",
+        "6-3",
+        "9-5",
+        "4+1",
+        "8-2",
+        "2+5",
+        "3+5",
+        "2+7"
+    ],
+    "interaction_delay": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+    ],
+    "location_array": [
+        {
+            "x": "20",
+            "y": "16"
+        },
+        {
+            "x": "55",
+            "y": "14"
+        },
+        {
+            "x": "85",
+            "y": "85"
+        },
+        {
+            "x": "6",
+            "y": "88"
+        },
+        {
+            "x": "17",
+            "y": "42"
+        },
+        {
+            "x": "46",
+            "y": "66"
+        },
+        {
+            "x": "55",
+            "y": "53"
+        },
+        {
+            "x": "26",
+            "y": "62"
+        },
+        {
+            "x": "17",
+            "y": "1"
+        }
+    ],
+    "highlight_array": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+    ],
+    "timer": {
+        "enabled": true,
+        "direction": "down",
+        "max_time": "7000",
+        "format": "S",
+        "fake_ranking": "5632",
+        "fake_ranking_enabled": false
+    },
+    "scoreboard": {
+        "enabled": false,
+        "reward_score": "100",
+        "penalty_percentage": "2",
+        "decimal_places": "0",
+        "display_negative": false,
+        "fake_ranking": "100",
+        "fake_ranking_enabled": false
+    },
+    "linked_files": {
+        "correct_haptic": [
+            "None",
+            "None",
+            "None",
+            "None",
+            "None",
+            "None",
+            "None",
+            "None",
+            "None"
+        ],
+        "wrong_haptic": [
+            "None",
+            "None",
+            "None",
+            "None",
+            "None",
+            "None",
+            "None",
+            "None",
+            "None"
+        ],
+        "correct_audio": [
+            "None",
+            "None",
+            "None",
+            "None",
+            "None",
+            "None",
+            "None",
+            "None",
+            "None"
+        ],
+        "wrong_audio": [
+            "None",
+            "None",
+            "None",
+            "None",
+            "None",
+            "None",
+            "None",
+            "None",
+            "None"
+        ]
+    },
+    "tutorial_text": {
+        "interaction_type": "tap on the button from 1 to 9",
+        "penalty": "incorrect interaction will result in a penalty",
+        "game_mode": "you will need to restart from 1 if you make a mistake"
+    },
+    "game_over_text": "Congratulations! You have completed the game!",
+    "survey_url": "data_only - ",
+    "custom_text_enabled": true,
+    "location_array_enabled": true,
+    "highlight_array_enabled": false
+}

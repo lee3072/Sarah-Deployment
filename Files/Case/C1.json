@@ -1,0 +1,88 @@
+{
+    "order_array": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+    ],
+    "interaction_delay": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "tutorial_text": {
+        "interaction_type": "tap on the button from 1 to 9",
+        "penalty": "incorrect interaction will result in a penalty",
+        "game_mode": "you will need to restart from 1 if you make a mistake"
+    },
+    "interaction": {
+        "interaction_type": "tap",
+        "game_mode": "restart"
+    },
+    "location_array": [
+        {
+            "x": 20,
+            "y": 16
+        },
+        {
+            "x": 55,
+            "y": 14
+        },
+        {
+            "x": 85,
+            "y": 85
+        },
+        {
+            "x": 6,
+            "y": 88
+        },
+        {
+            "x": 17,
+            "y": 42
+        },
+        {
+            "x": 46,
+            "y": 66
+        },
+        {
+            "x": 55,
+            "y": 53
+        },
+        {
+            "x": 26,
+            "y": 62
+        },
+        {
+            "x": 17,
+            "y": 1
+        }
+    ],
+    "custom_text_array": [
+        "4-3",
+        "7-5",
+        "6-3",
+        "9-5",
+        "4+1",
+        "8-2",
+        "2+5",
+        "3+5",
+        "2+7"
+    ],
+    "timer": {
+        "direction": "down",
+        "max_time": 7000,
+        "format": "S"
+    },
+    "game_over_text": "Congratulations! You have completed the game!"
+}

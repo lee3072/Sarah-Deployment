@@ -1,0 +1,15 @@
+{
+    "ExperimentID": "SZW",
+    "CaseFiles": [
+        "Files/Case/Trial.json",
+        "Files/Case/B1.json",
+        "Files/Case/A2.json",
+        "Files/Case/D1.json",
+        "Files/Case/C2.json",
+        "Files/Case/A1.json",
+        "Files/Case/B2.json",
+        "Files/Case/C1.json",
+        "Files/Case/D2.json"
+    ],
+    "survey_url": ""
+}

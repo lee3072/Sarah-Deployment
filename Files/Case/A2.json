@@ -1,0 +1,112 @@
+{
+    "order_array": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+    ],
+    "interaction_delay": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "tutorial_text": {
+        "interaction_type": "tap on the button from 1 to 9",
+        "penalty": "incorrect interaction will result in a penalty",
+        "game_mode": "you will need to restart from 1 if you make a mistake"
+    },
+    "interaction": {
+        "interaction_type": "tap",
+        "game_mode": "restart"
+    },
+    "location_array": [
+        {
+            "x": 56,
+            "y": 38
+        },
+        {
+            "x": 28,
+            "y": 2
+        },
+        {
+            "x": 2,
+            "y": 49
+        },
+        {
+            "x": 54,
+            "y": 5
+        },
+        {
+            "x": 54,
+            "y": 25
+        },
+        {
+            "x": 27,
+            "y": 74
+        },
+        {
+            "x": 82,
+            "y": 64
+        },
+        {
+            "x": 8,
+            "y": 78
+        },
+        {
+            "x": 49,
+            "y": 89
+        }
+    ],
+    "custom_text_array": [
+        "5-4",
+        "8-6",
+        "7-4",
+        "8-4",
+        "3+2",
+        "7-1",
+        "3+4",
+        "4+4",
+        "3+6"
+    ],
+    "timer": {
+        "direction": "down",
+        "max_time": 7000,
+        "format": "S"
+    },
+    "game_over_text": "Congratulations! You have completed the game!",
+    "linked_files": {
+        "correct_haptic": [
+            "https://lee3072.github.io/Sarah-Deployment/Files/Haptic/Original/Pop1.ahap",
+            "https://lee3072.github.io/Sarah-Deployment/Files/Haptic/Original/Pop1.ahap",
+            "https://lee3072.github.io/Sarah-Deployment/Files/Haptic/Original/Pop1.ahap",
+            "https://lee3072.github.io/Sarah-Deployment/Files/Haptic/Original/Pop1.ahap",
+            "https://lee3072.github.io/Sarah-Deployment/Files/Haptic/Original/Pop1.ahap",
+            "https://lee3072.github.io/Sarah-Deployment/Files/Haptic/Original/Pop1.ahap",
+            "https://lee3072.github.io/Sarah-Deployment/Files/Haptic/Original/Pop1.ahap",
+            "https://lee3072.github.io/Sarah-Deployment/Files/Haptic/Original/Pop1.ahap",
+            "https://lee3072.github.io/Sarah-Deployment/Files/Haptic/Original/Pop1.ahap"
+        ],
+        "wrong_haptic": [
+            "https://lee3072.github.io/Sarah-Deployment/Files/Haptic/Original/Snare1.ahap",
+            "https://lee3072.github.io/Sarah-Deployment/Files/Haptic/Original/Snare1.ahap",
+            "https://lee3072.github.io/Sarah-Deployment/Files/Haptic/Original/Snare1.ahap",
+            "https://lee3072.github.io/Sarah-Deployment/Files/Haptic/Original/Snare1.ahap",
+            "https://lee3072.github.io/Sarah-Deployment/Files/Haptic/Original/Snare1.ahap",
+            "https://lee3072.github.io/Sarah-Deployment/Files/Haptic/Original/Snare1.ahap",
+            "https://lee3072.github.io/Sarah-Deployment/Files/Haptic/Original/Snare1.ahap",
+            "https://lee3072.github.io/Sarah-Deployment/Files/Haptic/Original/Snare1.ahap",
+            "https://lee3072.github.io/Sarah-Deployment/Files/Haptic/Original/Snare1.ahap"
+        ]
+    }
+}
